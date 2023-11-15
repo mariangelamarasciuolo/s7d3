@@ -13,7 +13,7 @@ public class S7d3Application {
 	public static void main(String[] args) {
 		SpringApplication.run(S7d3Application.class, args);
 
-		Info info = new Info("Aldo", "Baglio", LocalDate.of(1972, 6, 2));
+		Info info = new Info("Aldo", "Baglio", LocalDate.of(1958, 9, 28));
 		InfoAdapter adapter = new InfoAdapter(info);
 		System.out.println(adapter.getNomeCompleto());
 		System.out.println((adapter.getEta()));
